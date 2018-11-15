@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourSiteWith3LayersArch", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourSiteWith3LayersArch.Tests", "TourSiteWith3LayersArch.Tests\TourSiteWith3LayersArch.Tests.csproj", "{D154C822-EB26-401D-9B37-813EC242DEC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{048E2FED-6968-4976-98E6-FF7D373CBFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{5B1EEE8C-95A1-4735-956C-8EC8C96BEC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F8EFD672-1984-46D7-A2CF-FCE3009DBF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourSiteAdmin", "TourSiteAdmin\TourSiteAdmin.csproj", "{2ACB62FF-C138-4EB0-BF09-DCBB0715B10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourSiteAdmin.Tests", "TourSiteAdmin.Tests\TourSiteAdmin.Tests.csproj", "{A5F984D9-30BE-490E-91FC-02C36ED74D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,26 @@ Global
 		{D154C822-EB26-401D-9B37-813EC242DEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D154C822-EB26-401D-9B37-813EC242DEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D154C822-EB26-401D-9B37-813EC242DEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048E2FED-6968-4976-98E6-FF7D373CBFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048E2FED-6968-4976-98E6-FF7D373CBFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048E2FED-6968-4976-98E6-FF7D373CBFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048E2FED-6968-4976-98E6-FF7D373CBFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1EEE8C-95A1-4735-956C-8EC8C96BEC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1EEE8C-95A1-4735-956C-8EC8C96BEC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1EEE8C-95A1-4735-956C-8EC8C96BEC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1EEE8C-95A1-4735-956C-8EC8C96BEC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EFD672-1984-46D7-A2CF-FCE3009DBF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EFD672-1984-46D7-A2CF-FCE3009DBF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EFD672-1984-46D7-A2CF-FCE3009DBF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EFD672-1984-46D7-A2CF-FCE3009DBF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACB62FF-C138-4EB0-BF09-DCBB0715B10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACB62FF-C138-4EB0-BF09-DCBB0715B10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACB62FF-C138-4EB0-BF09-DCBB0715B10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACB62FF-C138-4EB0-BF09-DCBB0715B10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F984D9-30BE-490E-91FC-02C36ED74D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F984D9-30BE-490E-91FC-02C36ED74D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F984D9-30BE-490E-91FC-02C36ED74D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F984D9-30BE-490E-91FC-02C36ED74D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

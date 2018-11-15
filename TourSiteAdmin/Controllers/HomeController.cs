@@ -1,20 +1,16 @@
-﻿using DAL;
-using BusinessLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace TourSiteWith3LayersArch.Controllers
+namespace TourSiteAdmin.Controllers
 {
     public class HomeController : Controller
     {
-        
         public ActionResult Index()
         {
-            List<Tour> tourList = TourDB_services.GetAllTours();
-            return View(tourList);
+            return View();
         }
 
         public ActionResult About()
