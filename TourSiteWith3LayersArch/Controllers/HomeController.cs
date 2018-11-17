@@ -13,7 +13,7 @@ namespace TourSiteWith3LayersArch.Controllers
         
         public ActionResult Index()
         {
-            List<Tour> tourList = TourDB_services.GetAllTours();
+            List<Tour> tourList = TourServices.GetAllTours();
             return View(tourList);
         }
 

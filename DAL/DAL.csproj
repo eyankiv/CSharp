@@ -78,7 +78,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TourData.edmx</DependentUpon>
     </Compile>
-    <Compile Include="TourDB_provider.cs" />
+    <Compile Include="TourDBprovider.cs" />
     <Compile Include="tourGallery.cs">
       <DependentUpon>TourData.tt</DependentUpon>
     </Compile>
@@ -110,6 +110,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{f8efd672-1984-46d7-a2cf-fce3009dbf0b}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
