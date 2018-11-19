@@ -36,7 +36,7 @@ namespace BusinessLayer
                 CategoryName = dbTour.CategoryID.HasValue ? TourDBprovider.GetCategoryNameById(dbTour.CategoryID.Value) : string.Empty,
                 Price = dbTour.ClassID.HasValue ? TourDBprovider.GetTourPriceByTourClassId(dbTour.ClassID.Value) : 0
             };
-            var discount = TourDBProvider.GetDiscountByTourId(tour.TourID);
+            var discount = TourDBprovider.GetDiscountByTourId(tour.TourID);
             tour.FinalPrice = tour.Price * discount;
             return tour;
         }

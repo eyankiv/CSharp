@@ -225,6 +225,10 @@
       <Project>{048e2fed-6968-4976-98e6-ff7d373cbfb7}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{f8efd672-1984-46d7-a2cf-fce3009dbf0b}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

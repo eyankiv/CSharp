@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MetaData.cs" />
+    <Compile Include="PartialClasses.cs" />
+    <Compile Include="TourCategoryDBprovider.cs" />
     <Compile Include="Photo.cs">
       <DependentUpon>TourData.tt</DependentUpon>
     </Compile>
